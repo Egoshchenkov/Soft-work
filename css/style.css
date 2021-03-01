@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-size: 16px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  color: white;
+  transform: translateY(50%); }
+
+main {
+  display: flex;
+  justify-content: center; }
+
+.nav {
+  background-color: #2e2e6e;
+  flex-basis: 200px; }
+  .nav__name {
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding: 25px 50px 10px 50px;
+    width: 95%; }
+  .nav ul {
+    text-decoration: none;
+    list-style: none;
+    padding: 15px 30px; }
+    .nav ul li {
+      padding-top: 5px; }
+
+.contacts {
+  color: black;
+  display: flex;
+  background-color: white;
+  border: 1px solid grey; }
+  .contacts__name {
+    border-top: 1px solid grey;
+    border-left: 1px solid grey;
+    margin-top: 2px;
+    margin-left: 1px;
+    width: 350px; }
+    .contacts__name table {
+      border-spacing: 0;
+      width: 100%; }
+      .contacts__name table caption {
+        height: 25px;
+        color: white;
+        background-color: #3586ff;
+        text-align: left;
+        padding: 3px 0 3px 5px; }
+      .contacts__name table td {
+        border-top: 1px solid grey;
+        height: 25px; }
+  .contacts__information {
+    border-top: 1px solid grey;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    margin: 2px 2px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+    color: grey; }
+    .contacts__information div {
+      display: flex;
+      justify-content: space-between; }
+    .contacts__information input {
+      margin-left: 10px; }
+
+.btn-save {
+  width: 100px;
+  height: 25px;
+  background-color: #3586ff;
+  border-radius: 5px;
+  align-self: center;
+  color: white;
+  border: none; }
+
+.userProfile {
+  color: grey;
+  background-color: #ccc9c9;
+  margin-top: 50px;
+  padding: 30px;
+  position: relative;
+  font-size: 20px; }
+  .userProfile .profile__head {
+    position: absolute;
+    background-color: purple;
+    color: white;
+    width: 93%;
+    transform: translate(1.5%, -15px);
+    margin-top: 50px;
+    border-radius: 4px;
+    padding: 10px; }
+    .userProfile .profile__head-1 {
+      padding-bottom: 5px;
+      display: block; }
+    .userProfile .profile__head-2 {
+      font-size: 16px; }
+  .userProfile .profile__information {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 50px;
+    padding-top: 70px; }
+  .userProfile .btn-update {
+    width: 100px;
+    height: 25px;
+    background-color: purple;
+    border-radius: 5px;
+    align-self: center;
+    color: white;
+    border: none;
+    margin-top: 10px; }
+  .userProfile input {
+    border: none;
+    border-bottom: 1px solid grey;
+    padding: 5px; }
