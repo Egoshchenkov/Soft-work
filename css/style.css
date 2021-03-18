@@ -3,118 +3,246 @@
   padding: 0;
   box-sizing: border-box; }
 
+html {
+  font-size: 62.5%; }
+
 body {
-  font-size: 16px;
+  font-size: 1.6rem;
   font-family: 'Times New Roman', Times, serif;
   font-weight: 400;
   color: white;
-  transform: translateY(50%); }
+  transform: translateY(20%); }
 
 main {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  position: relative; }
 
 .nav {
   background-color: #2e2e6e;
-  flex-basis: 200px; }
+  width: 30rem;
+  height: 30rem; }
   .nav__name {
-    font-size: 20px;
+    font-size: 2rem;
     text-align: center;
     border-bottom: 1px solid white;
-    padding: 25px 50px 10px 50px;
+    padding: 2.5rem 5rem 1rem 5rem;
     width: 95%; }
+  .nav__link:hover {
+    border-bottom: 1px solid white; }
   .nav ul {
     text-decoration: none;
     list-style: none;
-    padding: 15px 30px; }
+    padding: 1.5rem 3rem; }
     .nav ul li {
-      padding-top: 5px; }
+      padding-top: .5rem; }
 
-.contacts {
+.registration {
   color: black;
   display: flex;
   background-color: white;
-  border: 1px solid grey; }
-  .contacts__name {
-    border-top: 1px solid grey;
-    border-left: 1px solid grey;
-    margin-top: 2px;
-    margin-left: 1px;
-    width: 350px; }
-    .contacts__name table {
-      border-spacing: 0;
-      width: 100%; }
-      .contacts__name table caption {
-        height: 25px;
-        color: white;
-        background-color: #3586ff;
-        text-align: left;
-        padding: 3px 0 3px 5px; }
-      .contacts__name table td {
-        border-top: 1px solid grey;
-        height: 25px; }
-  .contacts__information {
-    border-top: 1px solid grey;
-    border-left: 1px solid grey;
-    border-right: 1px solid grey;
-    margin: 2px 2px 0 0;
+  border: 6px double grey;
+  width: 78rem;
+  flex-wrap: wrap;
+  height: 100%;
+  text-align: center; }
+  .registration__autorization {
+    align-self: center;
+    width: 100%; }
+    .registration__autorization div {
+      padding: 1rem; }
+    .registration__autorization button {
+      transform: none; }
+      .registration__autorization button:hover {
+        transform: translate(0, -0.2rem);
+        box-shadow: 0 0.9rem 1rem rgba(0, 0, 0, 0.2); }
+  .registration__information {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 10px;
-    color: grey; }
-    .contacts__information div {
+    padding: 3rem;
+    color: grey;
+    width: 36rem; }
+    .registration__information div {
       display: flex;
       justify-content: space-between; }
-    .contacts__information input {
-      margin-left: 10px; }
+    .registration__information input {
+      margin-left: 1rem; }
+
+.btn {
+  background-color: #3586ff;
+  border-radius: .5rem;
+  color: white;
+  border: none;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2); }
+  .btn:hover {
+    transform: translateY(-0.2rem);
+    box-shadow: 0 0.9rem 1rem rgba(0, 0, 0, 0.2); }
 
 .btn-save {
-  width: 100px;
-  height: 25px;
   background-color: #3586ff;
-  border-radius: 5px;
-  align-self: center;
+  border-radius: .5rem;
   color: white;
-  border: none; }
+  border: none;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+  width: 10rem;
+  height: 2.5rem;
+  align-self: center;
+  transform: translateX(300%);
+  margin-top: 2rem; }
+  .btn-save:hover {
+    transform: translate(300%, -0.2rem);
+    box-shadow: 0 0.9rem 1rem rgba(0, 0, 0, 0.2); }
+  .btn-save-1 {
+    width: 16rem;
+    height: 3rem; }
 
-.userProfile {
-  color: grey;
-  background-color: #ccc9c9;
-  margin-top: 50px;
-  padding: 30px;
-  position: relative;
-  font-size: 20px; }
-  .userProfile .profile__head {
+.checkedRow {
+  background-color: #d8d3d3; }
+
+.admin-table {
+  color: black;
+  background-color: white;
+  border: .6rem double grey;
+  width: 78rem;
+  height: 30rem;
+  font-size: 1.4rem;
+  word-wrap: break-word;
+  position: relative; }
+  .admin-table__buttons {
     position: absolute;
-    background-color: purple;
-    color: white;
-    width: 93%;
-    transform: translate(1.5%, -15px);
-    margin-top: 50px;
-    border-radius: 4px;
-    padding: 10px; }
-    .userProfile .profile__head-1 {
-      padding-bottom: 5px;
-      display: block; }
-    .userProfile .profile__head-2 {
-      font-size: 16px; }
-  .userProfile .profile__information {
-    background-color: white;
-    border-radius: 10px;
-    padding: 10px;
-    margin-top: 50px;
-    padding-top: 70px; }
-  .userProfile .btn-update {
-    width: 100px;
-    height: 25px;
-    background-color: purple;
-    border-radius: 5px;
-    align-self: center;
-    color: white;
-    border: none;
-    margin-top: 10px; }
-  .userProfile input {
-    border: none;
-    border-bottom: 1px solid grey;
-    padding: 5px; }
+    bottom: 1rem;
+    right: 30%; }
+  .admin-table__arrows {
+    position: absolute;
+    bottom: .5rem;
+    right: 1rem; }
+  .admin-table table {
+    border-collapse: collapse;
+    width: 100%; }
+    .admin-table table div {
+      border-bottom: 1px solid black; }
+  .admin-table table tr td {
+    word-break: break-word; }
+  .admin-table tr:hover :not(th) {
+    background-color: #d8d3d3; }
+  .admin-table td::selection,
+  .admin-table th::selection {
+    background-color: #ece7e7; }
+  .admin-table th {
+    border-bottom: 1px solid black;
+    border-right: 1px solid grey;
+    padding: .5rem;
+    height: 3rem; }
+  .admin-table td {
+    padding: .5rem .5rem;
+    border-bottom: 1px solid black;
+    text-align: center;
+    height: 4rem; }
+  .admin-table-0 {
+    width: 4.5%; }
+  .admin-table-1 {
+    width: 4.5%; }
+  .admin-table-2 {
+    width: 11%; }
+  .admin-table-3 {
+    width: 14%; }
+  .admin-table-4 {
+    width: 10%; }
+  .admin-table-5 {
+    width: 15%; }
+  .admin-table-6 {
+    width: 10%; }
+  .admin-table-7 {
+    width: 10%; }
+  .admin-table-8 {
+    width: 10%; }
+
+.homepage {
+  color: black;
+  background-color: white;
+  border: .6rem double grey;
+  width: 78rem;
+  height: 100%;
+  text-align: center;
+  padding-top: 15%; }
+
+.arrows {
+  width: 3rem;
+  height: 3rem; }
+  .arrows-1 {
+    padding-right: .3rem; }
+  .arrows-2 {
+    padding-left: .3rem; }
+
+.arrows:hover {
+  background-color: #dfd9d9;
+  border-radius: 100px; }
+
+.block-group {
+  position: relative; }
+
+.blocker {
+  background-color: grey;
+  position: absolute;
+  z-index: 1;
+  width: 1080px;
+  height: 300px;
+  opacity: .5; }
+
+.loader {
+  border: 14px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 14px solid #3498db;
+  width: 100px;
+  height: 100px;
+  -webkit-animation: spin 1.5s linear infinite;
+  /* Safari */
+  animation: spin 1.5s linear infinite;
+  z-index: 2;
+  position: absolute;
+  top: 8rem;
+  left: 50rem; }
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg); } }
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(360deg); } }
+
+.emptybox {
+  display: none; }
+
+.start-window {
+  color: black;
+  width: 108rem;
+  height: 30rem;
+  border: 6px double grey;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 2.4rem; }
+
+.btn-box {
+  display: flex; }
+
+.btn-login {
+  font-size: 1.7rem;
+  margin: 2rem;
+  width: 10rem;
+  height: 3rem; }
+
+.container {
+  display: flex; }
+
+.main-section {
+  display: flex; }

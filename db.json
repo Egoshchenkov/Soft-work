@@ -1,19 +1,57 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "Company": "Gandonpozornadzor",
+      "Username": "Grother",
+      "Email": "himik@mail.ru",
+      "FirstName": "Ilya",
+      "LastName": "Egoshchenkov",
+      "City": "Kobrin",
+      "Country": "Belarus",
+      "Password": "12345",
+      "PostalCode": "220007",
+      "AboutMe": "Luchshiy",
+      "id": 1
     },
     {
-      "role": "Заказчик",
-      "UserName": "Postks",
-      "PhoneNumber": "+16774521547",
-      "Password": "ssss",
-      "PasswordConfirm": "ssss*",
+      "Company": "zavod",
+      "Username": "machina",
+      "Email": "nevajno",
+      "FirstName": "Lenya",
+      "LastName": "Lepenya",
+      "City": "Los-Angeles",
+      "Country": "Vietnam",
+      "Password": "Spit",
+      "PostalCode": "net",
+      "AboutMe": "grugsmmmiii",
       "id": 2
+    },
+    {
+      "Company": "",
+      "Username": "rfjrtjrj",
+      "Email": "",
+      "FirstName": "",
+      "LastName": "",
+      "City": "",
+      "Country": "",
+      "Password": "",
+      "PostalCode": "",
+      "AboutMe": "",
+      "id": 3
+    },
+    {
+      "Company": "",
+      "Username": "",
+      "Email": "",
+      "FirstName": "fawfaw",
+      "LastName": "ktfkf",
+      "City": "",
+      "Country": "",
+      "Password": "",
+      "PostalCode": "",
+      "AboutMe": "",
+      "id": 4
     }
-   
   ],
   "comments": [
     {
