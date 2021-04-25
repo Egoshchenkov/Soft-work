@@ -1,0 +1,66 @@
+{
+  "posts": [
+    {
+      "Company": "Gandonpozornadzor",
+      "Username": "Grother",
+      "Email": "himik@mail.ru",
+      "FirstName": "Ilya",
+      "LastName": "Egoshchenkov",
+      "City": "Kobrin",
+      "Country": "Belarus",
+      "Password": "12345",
+      "PostalCode": "220007",
+      "AboutMe": "Luchshiy",
+      "id": 1
+    },
+    {
+      "Company": "zavod",
+      "Username": "machina",
+      "Email": "nevajno",
+      "FirstName": "Lenya",
+      "LastName": "Lepenya",
+      "City": "Los-Angeles",
+      "Country": "Vietnam",
+      "Password": "Spit",
+      "PostalCode": "net",
+      "AboutMe": "grugsmmmiii",
+      "id": 2
+    },
+    {
+      "Company": "",
+      "Username": "rfjrtjrj",
+      "Email": "",
+      "FirstName": "",
+      "LastName": "",
+      "City": "",
+      "Country": "",
+      "Password": "",
+      "PostalCode": "",
+      "AboutMe": "",
+      "id": 3
+    },
+    {
+      "Company": "",
+      "Username": "",
+      "Email": "",
+      "FirstName": "fawfaw",
+      "LastName": "ktfkf",
+      "City": "",
+      "Country": "",
+      "Password": "",
+      "PostalCode": "",
+      "AboutMe": "",
+      "id": 4
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

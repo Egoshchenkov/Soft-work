@@ -1,0 +1,22 @@
+{
+  "name": "soft-work",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Egoshchenkov/Soft-work.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Egoshchenkov/Soft-work/issues"
+  },
+  "homepage": "https://github.com/Egoshchenkov/Soft-work#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}
